@@ -1,0 +1,492 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.container{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header{
+    background: #2E948A;
+    height: 117px;
+    display: block; 
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+header a{
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+
+}
+
+header .mid{
+    margin-left: 42px;
+    margin-right:37px;
+}
+
+.logo{
+    display: flex;
+    color: #FDFDFD;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.logo-img{
+    
+    width: 69px;
+    height: 71px;
+    left: 82px;
+    top: 20px;
+}
+
+h1{
+    
+    width: 164px;
+    height: 64px;
+    left: 162px;
+    top: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+nav{
+    display: flex;
+    align-items:  center;
+    margin-top: 15px;
+    
+}
+
+footer{
+    
+    height: 207px;
+    background: #419488;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container-logo-nome{
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 250px;
+
+}
+.logo-img-nome{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #FDFDFD;
+
+}
+
+.dindin{
+    font-weight: 500;
+    font-size: 66px;  
+}
+
+.edu{
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.container-links{
+    display: flex;
+    font-size: 20px;
+    color: #FDFDFD;
+    justify-content: center;
+    text-align: left;
+    width: 71px;
+    margin-right: 200px;
+    
+}
+
+
+.container-botoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.botao-1{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    border-radius: 62px;
+    margin-bottom: 13px;
+    padding: 14px 41px 14px 41px;
+    text-align: center;
+
+}
+
+.botao-2{
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    padding: 14px 41px 14px 41px;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background: #F7F7F7;
+    width: 100%;
+    
+}
+
+.topo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    padding-top:  89px;
+    width: 100%;
+}
+
+.texto-topo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 512px;
+    height: 258px;
+}
+
+.text-topo-maior{
+    font-weight: 700;
+    font-size: 47px;
+    color: #009688;
+    width: 80%;
+    text-align: left;
+}
+.img-topo{
+    margin-left: 125px;
+}
+.text-topo{
+    font-weight: 300;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+#container-conteudo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 170px;
+    justify-content: space-around;
+}
+.container-geral{
+    height: 411px;
+    width: 518px;
+    margin-top: 109px;
+}
+
+.container-textos{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.container-textos-grande{
+    font-weight: 500;
+    font-size: 30px;
+    color: #FF4081;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    text-align: left;
+}
+
+.container-textos-menores{
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    height: 80px;
+    
+}
+
+.retangulo{
+    width: 518px;
+    height: 259px;
+    background: #C4C4C4;
+}
+
+@media only screen and (max-width:550px){
+    
+    *{
+        margin: 0 auto;
+        padding: 0 auto;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+    
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+    }
+    
+    .container{
+        display: flex;
+        max-width: 550px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    header{
+        background: #2E948A;
+        height: 117px;
+        display: block; 
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    
+    header a{
+        color: #FDFDFD;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-decoration: none;
+    
+    }
+    
+    header .mid{
+        margin-left: 42px;
+        margin-right:37px;
+    }
+    
+    .logo{
+        display: flex;
+        color: #FDFDFD;
+        align-items: center;
+        margin-top: 25px;
+    
+    }
+    
+    .logo-img{
+        
+        width: 69px;
+        height: 71px;
+        left: 82px;
+        top: 20px;
+    }
+    
+    h1{
+        
+        width: 164px;
+        height: 64px;
+        left: 162px;
+        top: 33px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 64px;
+    }
+    
+    nav{
+        display: flex;
+        align-items:  center;
+        margin-top: 15px;
+        
+    }
+    
+    footer{
+        
+        height: 207px;
+        background: #419488;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .container-logo-nome{
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 250px;
+    
+    }
+    .logo-img-nome{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: #FDFDFD;
+    
+    }
+    
+    .dindin{
+        font-weight: 500;
+        font-size: 66px;  
+    }
+    
+    .edu{
+        font-weight: 300;
+        font-size: 19px;
+    }
+    
+    .container-links{
+        display: flex;
+        font-size: 20px;
+        color: #FDFDFD;
+        justify-content: center;
+        text-align: left;
+        width: 71px;
+        margin-right: 200px;
+        
+    }
+    
+    
+    .container-botoes{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .botao-1{
+        border: 2px solid #FFFFFF;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        border-radius: 62px;
+        margin-bottom: 13px;
+        padding: 14px 41px 14px 41px;
+        text-align: center;
+    
+    }
+    
+    .botao-2{
+        border: 2px solid #FFFFFF;
+        border-radius: 62px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        padding: 14px 41px 14px 41px;
+        text-align: center;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        background: #F7F7F7;
+        width: 100%;
+        
+    }
+    
+    .topo{
+        display: flex;
+        justify-content: space-around;
+        background-color: #FFFFFF;
+        padding-top:  89px;
+        width: 100%;
+    }
+    
+    .texto-topo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 512px;
+        height: 258px;
+    }
+    
+    .text-topo-maior{
+        font-weight: 700;
+        font-size: 47px;
+        color: #009688;
+        width: 80%;
+        text-align: left;
+    }
+    .img-topo{
+        margin-left: 125px;
+    }
+    .text-topo{
+        font-weight: 300;
+        font-size: 20px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        width: 80%;
+    }
+    
+    #container-conteudo{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 170px;
+        justify-content: space-around;
+    }
+    .container-geral{
+        height: 411px;
+        width: 518px;
+        margin-top: 109px;
+    }
+    
+    .container-textos{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    .container-textos-grande{
+        font-weight: 500;
+        font-size: 30px;
+        color: #FF4081;
+        margin-top: 19px;
+        margin-bottom: 19px;
+        text-align: left;
+    }
+    
+    .container-textos-menores{
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        height: 80px;
+        
+    }
+    
+    .retangulo{
+        width: 518px;
+        height: 259px;
+        background: #C4C4C4;
+    }
+    
+
+}

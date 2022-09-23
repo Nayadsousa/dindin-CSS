@@ -1,0 +1,278 @@
+*{
+    margin: auto;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+header{
+    background: #2E948A;
+    height: 117px;
+    width: 100%;
+    display: flex; 
+}
+
+.container{
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+a{
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+
+}
+
+.h3-mid{
+    margin-left: 42px;
+    margin-right:37px;
+}
+
+.logo{
+    display: flex;
+    color: #FDFDFD;
+    margin-right: 400px;
+
+}
+
+.logo-img{
+    
+    width: 69px;
+    height: 71px;
+    left: 82px;
+    top: 20px;
+}
+
+h1{
+    
+    width: 164px;
+    height: 64px;
+    left: 162px;
+    top: 33px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.nav{
+    display: flex;
+    
+}
+
+footer{
+    
+    height: 207px;
+    width: 100%;
+    background: #419488;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-logo-nome{
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+}
+.logo-img-nome{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #FDFDFD;
+
+}
+
+.dindin{
+    font-weight: 500;
+    font-size: 66px;  
+}
+
+.edu{
+    font-weight: 300;
+    font-size: 19px;
+}
+
+.container-links{
+    display: flex;
+    font-size: 20px;
+    color: #FDFDFD;
+    justify-content: flex-start;
+    text-align: left;
+    width: 71px;
+    margin-right: 300px;
+    
+}
+
+
+.container-botoes{
+    display: flex;
+    flex-direction: column;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.botao-1{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    border-radius: 62px;
+    margin-bottom: 13px;
+    padding: 14px 41px 14px 41px;
+    text-align: center;
+
+}
+
+.botao-2{
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    padding: 14px 41px 14px 41px;
+    text-align: center;
+}
+
+#conteudo-textos-gerais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 111px;
+    padding-bottom: 230px;
+}
+
+.conteuto-textos{
+    display: flex;
+    flex-direction: column;
+    width: 1032px;
+    
+}
+
+.data{
+    font-weight: 300;
+    font-size: 18px;
+    color: #9D9D9D;
+    margin-top: 14px;
+}
+
+.conteuto-textos-topo{
+    display: flex;
+    flex-direction: column;
+    width: 1032px;
+    margin-bottom: 74px;
+
+}
+
+.retangulo{
+    width: 1032px;
+    height: 465px;
+    background: #C4C4C4;
+    margin-bottom: 64px;
+    
+}
+
+.textos-gerais{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.textos-titulos{
+    font-weight: 500;
+    font-size: 25px;
+    color: #419488;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.texto-destaque{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+    align-items: center;
+}
+
+#conteuto-cursos-gerais{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    padding-bottom: 101px;
+
+
+}
+
+.conteudo-cursos{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 300px;
+}
+.c-textos{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-gerais-cursos{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+    margin-bottom: 101px;
+    padding-top: 79px;
+}
+
+.titulo-cursos{
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF4081;
+    margin-bottom: 28px;
+    margin-top: 52px;
+}
+
+.textos-sobre-cursos{
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    width: 80%;
+}
+
+.conteiner-cursos{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-cursos{
+    display: flex;
+    justify-content: center;
+}
+
+.b-cursos{
+    
+    box-sizing: border-box;
+    border: 2px solid #FDFDFD;
+    color: #FDFDFD;
+    background-color: #FF4081;
+    border-radius: 62px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 15px 30px 15px 30px;
+    margin-top: 32px;
+}
